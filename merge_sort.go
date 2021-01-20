@@ -1,3 +1,5 @@
+//O(nlog(n))
+
 package main
  
 import (
