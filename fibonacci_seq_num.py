@@ -23,7 +23,7 @@ def fibo_loop(n):
     else:
         first = second = 1
         fibo_list = [1]
-        for itr in range(n-1):
+        for i in range(n-1):
             temp = first
             first = second
             second = second + temp
