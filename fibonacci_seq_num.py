@@ -1,3 +1,4 @@
+# with recursion
 
 def fibo_rec(n):
     if n < 0:
@@ -12,6 +13,7 @@ def fibo_rec(n):
 # Driver Program
 print(fibo_rec(10))
  
+# with a loop
 
 def fibo_loop(n):
     if n == 0:
