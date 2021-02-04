@@ -25,8 +25,8 @@ def fibo_loop(n):
             temp = first
             first = second
             second = second + temp
-            fib_list.append(first)
+            fibo_list.append(first)
         print(*fibo_list, sep=" ")
-    return new
+    return first
 
 print(fibo_loop(12))
