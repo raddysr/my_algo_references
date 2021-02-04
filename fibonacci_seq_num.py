@@ -13,21 +13,20 @@ def fibo_rec(n):
 print(fibo_rec(10))
  
 
-def fibonacci_loop(n):
+def fibo_loop(n):
     if n == 0:
         return 0 
     elif n == 1 or n == 2:
         return 1
     else:
-        new = old = 1
-        
-        fib_list = [1]
+        first = second = 1
+        fibo_list = [1]
         for itr in range(n-1):
-            temp = new
-            new = old
-            old = old + temp
-            fib_list.append(new)
-        print(*fib_list, sep=" ")
+            temp = first
+            first = second
+            second = second + temp
+            fib_list.append(first)
+        print(*fibo_list, sep=" ")
     return new
 
-print(fibonacci_loop(12))
+print(fibo_loop(12))
