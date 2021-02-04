@@ -32,3 +32,16 @@ def fibo_loop(n):
     return first
 
 print(fibo_loop(12))
+
+def fibo_rabbit(months, offsprings):
+
+    parent, child = 1,1
+
+    for i in range(months - 1):
+        child,parent = parent, parent + (child*offsprings)
+    print(child)
+    return child
+
+
+fibo_rabbit(5,3)
+
