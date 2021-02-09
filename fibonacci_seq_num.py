@@ -34,7 +34,7 @@ def fibo_loop(n):
 
 print(fibo_loop(12))
 
-def fibo_pythonnic(n):
+def fibo_pythonic(n):
     first, second = 1,1
     for i in range(n-1):
         first, second = second, second + first
