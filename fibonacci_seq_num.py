@@ -21,7 +21,7 @@ def fibo_loop(n):
     elif n == 1 or n == 2:
         return 1
     else:
-        first = second = 1
+        first, second = 1,1
         fibo_list = [1]
         for i in range(n-1):
             temp = first
@@ -32,6 +32,13 @@ def fibo_loop(n):
     return first
 
 print(fibo_loop(12))
+
+def fibo_pythonnic(n):
+    first, second = 1,1
+    for i in range(n-1):
+        first, second = second, second + first
+    return first
+        
 
 def fibo_rabbit(months, offsprings):
 
