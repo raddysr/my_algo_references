@@ -1,7 +1,5 @@
 test_arr = [1000, 1000000, 1, -15 , 33]
 
-
-
 def mergeSort(arr):
     if len(arr) > 1:
  
