@@ -71,6 +71,5 @@ func merge(left, right []int) (result []int) {
         result[i] = right[j]
         i++
     }
-      
     return
 }
