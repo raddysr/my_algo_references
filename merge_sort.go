@@ -27,8 +27,7 @@ func generateSlice(size int) []int {
 }
   
 func mergeSort(items []int) []int {
-    var num = len(items)
-      
+    var num = len(items)      
     if num == 1 {
         return items
     }
